@@ -1,0 +1,19 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "Every new repl comes with a `.replit` and a `replit.nix` file that let you configure your repl to do just about anything in any language!",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daniel2006M/bot.git"
+  },
+  "author": "https://github/Daniel2006M",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Daniel2006M/bot/issues"
+  },
+  "homepage": "https://github.com/Daniel2006M/bot#readme"
+}
