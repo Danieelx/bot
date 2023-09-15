@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Daniel2006M/bot#readme",
   "dependencies": {
-    "discord.js": "^14.13.0"
+    "discord.js": "^14.13.0",
+    "path": "^0.12.7"
   }
 }

@@ -1,5 +1,5 @@
 run = "npm start"
-entrypoint = "index.js"
+entrypoint =  "bot.js"
 hidden = [".config", "package-lock.json"]
 
 [nix]
@@ -74,7 +74,7 @@ PATH = "$REPL_HOME/.config/npm/node_global/bin:$REPL_HOME/node_modules/.bin"
 npm_config_prefix = "$REPL_HOME/.config/npm/node_global"
 
 [gitHubImport]
-requiredFiles = [".replit", "replit.nix", ".config", "package.json", "package-lock.json"]
+requiredFiles = ["package.json", "package-lock.json"]
 
 [[hints]]
 regex = 'Error \[ERR_REQUIRE_ESM\]'

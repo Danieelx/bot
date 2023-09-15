@@ -2,7 +2,7 @@ const { Events } = require('discord.js');
 
 module.exports = {
   name: Events.InteractionCreate, 
-  async execute (interaction, bot) {
+  async run (interaction, bot) {
 	if (!interaction.isChatInputCommand()) return;
 
 	const command = interaction.bot.commands.get(interaction.commandName);
@@ -14,7 +14,12 @@ module.exports = {
 	try {
 		await command.execute(interaction, bot);
 	} catch (error) {
-    return;
+    interaction.reply({
+      content: 'Hubo un error al ejecutar el comando.'
+    })
+    logger.error(error)
 		}
 	}
 });
+// 💻 Coded by => Daniel
+// 🔵 Discord: Daniel.006
