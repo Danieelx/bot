@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Daniel2006M/bot/issues"
   },
-  "homepage": "https://github.com/Daniel2006M/bot#readme"
+  "homepage": "https://github.com/Daniel2006M/bot#readme",
+  "dependencies": {
+    "discord.js": "^14.13.0"
+  }
 }
